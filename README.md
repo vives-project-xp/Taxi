@@ -13,12 +13,13 @@ Alberiek:
 Opgesteld verantwoordelijkheidslijst, materiaallijst, testen LED (andere LED's vereist)
 
 Esteban: 
-Opmaken planning, informatie en testen met microcontroller (c++), Zoeken en installeren video editing software (open shot), videomateriaal opnemen
+Opmaken planning, informatie en testen met microcontroller (c++), Zoeken en installeren video editing software (open shot), videomateriaal opnemen, github testen
 
 Groep:
-Brainstormen, verdelen verantwoordelijkheden en taakverdeling, videomateriaal opnemen
+Brainstormen, verdelen verantwoordelijkheden en taakverdeling, videomateriaal opnemen, 
 
 Week 2
+TODO! (invoegen prijslijst)
 
 Week 3 
 TODO!
@@ -26,3 +27,4 @@ Colin: Ondersteuning powerpoint,
 Xander: Verderwerken powerpoint,
 Alberiek: Tekenen elektrische schema's,
 Esteban:
+Groep: Bezoek escape room 
