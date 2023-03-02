@@ -1,4 +1,4 @@
-# Fake-Taxi
+# Fake-Taxi + Dino
 Esteban Desmedt , Colin Bossuyt , Xander Vyvey , Alberiek Depreytere  Project escape room door Vives 1ste jaar studenten PBA Elektronica-ICT.
 
 * Who worked on what?
@@ -22,9 +22,73 @@ Week 2
 TODO! (invoegen prijslijst)
 
 Week 3 
+Opmerkingen: Dinosaurushoofs laten draaien werd bijgevoegd als opdracht. 
 TODO!
-Colin: Ondersteuning powerpoint,
+Colin: Ondersteuning powerpoint, 
 Xander: Verderwerken powerpoint,
-Alberiek: Tekenen elektrische schema's,
-Esteban:
-Groep: Bezoek escape room 
+Alberiek: Tekenen elektrische schema's, testen met materiaal, 
+Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal
+Groep: Bezoek escape room, testen hefsysteem taxi
+
+Week 4
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
+
+Week 5
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
+
+Week 6
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
+
+Week 7
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
+
+Week 8
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
+
+Week 9
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
+
+Week 10
+Opmerkingen: 
+TODO!
+Colin: 
+Xander: 
+Alberiek: 
+Esteban: 
+Groep: 
