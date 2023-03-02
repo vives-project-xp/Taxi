@@ -3,7 +3,7 @@ Esteban Desmedt , Colin Bossuyt , Xander Vyvey , Alberiek Depreytere  Project es
 
 * Who worked on what? 
 
-<h1>Week 1</h1>
+<h3>Week 1</h3>
 Colin:
 3D TAXI zoeken, opzoeken hoe te werken met blender, gezorgd voor uitsparingen in het gevonden model, Cura tests 3D printer
 
@@ -20,10 +20,10 @@ Groep:
 Brainstormen, verdelen verantwoordelijkheden en taakverdeling, videomateriaal opnemen, 
 
 
-Week 2
+<h3>Week 2</h3>
 TODO! (invoegen prijslijst)
 
-Week 3 
+<h3>Week 3</h3>
 Opmerkingen: Dinosaurushoofs laten draaien werd bijgevoegd als opdracht. 
 TODO!
 Colin: Ondersteuning powerpoint, 
@@ -32,7 +32,7 @@ Alberiek: Tekenen elektrische schema's, testen met materiaal,
 Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal, c++ videomateriaal bekijken (https://www.youtube.com/watch?v=-TkoO8Z07hI&t=707s)
 Groep: Bezoek escape room, testen hefsysteem taxi
 
-Week 4
+<h3>Week 4</h3>
 Opmerkingen: 
 TODO!
 Colin: 
@@ -41,7 +41,7 @@ Alberiek:
 Esteban: 
 Groep: 
 
-Week 5
+<h3>Week 5</h3>
 Opmerkingen: 
 TODO!
 Colin: 
@@ -50,7 +50,7 @@ Alberiek:
 Esteban: 
 Groep: 
 
-Week 6
+<h3>Week 6</h3>
 Opmerkingen: 
 TODO!
 Colin: 
@@ -59,7 +59,7 @@ Alberiek:
 Esteban: 
 Groep: 
 
-Week 7
+<h3>Week 7</h3>
 Opmerkingen: 
 TODO!
 Colin: 
@@ -68,7 +68,7 @@ Alberiek:
 Esteban: 
 Groep: 
 
-Week 8
+<h3>Week 8</h3>
 Opmerkingen: 
 TODO!
 Colin: 
@@ -77,7 +77,7 @@ Alberiek:
 Esteban: 
 Groep: 
 
-Week 9
+<h3>Week 9</h3>
 Opmerkingen: 
 TODO!
 Colin: 
@@ -86,7 +86,7 @@ Alberiek:
 Esteban: 
 Groep: 
 
-Week 10
+<h3>Week 10</h3>
 Opmerkingen: 
 TODO!
 Colin: 
