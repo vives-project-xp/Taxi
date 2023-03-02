@@ -6,7 +6,7 @@ Esteban Desmedt , Colin Bossuyt , Xander Vyvey , Alberiek Depreytere  Project es
 <h3>Week 1</h3>
 Colin:
 3D TAXI zoeken, opzoeken hoe te werken met blender, gezorgd voor uitsparingen in het gevonden model, Cura tests 3D printer
-
+<hr>
 Xander:
 Powerpoint layout gemaakt, opzoekingswerk over speaker
 
@@ -25,7 +25,9 @@ TODO! (invoegen prijslijst)
 
 <h3>Week 3</h3>
 Opmerkingen: Dinosaurushoofs laten draaien werd bijgevoegd als opdracht. 
+
 TODO!
+
 Colin: Ondersteuning powerpoint, 
 
 Xander: Verderwerken powerpoint,
