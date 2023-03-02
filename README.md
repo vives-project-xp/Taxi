@@ -3,7 +3,7 @@ Esteban Desmedt , Colin Bossuyt , Xander Vyvey , Alberiek Depreytere  Project es
 
 * Who worked on what? 
 
-Week 1
+<h1>Week 1</h1>
 Colin:
 3D TAXI zoeken, opzoeken hoe te werken met blender, gezorgd voor uitsparingen in het gevonden model, Cura tests 3D printer
 
@@ -29,7 +29,7 @@ TODO!
 Colin: Ondersteuning powerpoint, 
 Xander: Verderwerken powerpoint,
 Alberiek: Tekenen elektrische schema's, testen met materiaal, 
-Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal
+Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal, c++ videomateriaal bekijken (https://www.youtube.com/watch?v=-TkoO8Z07hI&t=707s)
 Groep: Bezoek escape room, testen hefsysteem taxi
 
 Week 4
