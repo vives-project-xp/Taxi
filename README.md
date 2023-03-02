@@ -27,9 +27,13 @@ TODO! (invoegen prijslijst)
 Opmerkingen: Dinosaurushoofs laten draaien werd bijgevoegd als opdracht. 
 TODO!
 Colin: Ondersteuning powerpoint, 
+
 Xander: Verderwerken powerpoint,
+
 Alberiek: Tekenen elektrische schema's, testen met materiaal, 
+
 Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal, c++ videomateriaal bekijken (https://www.youtube.com/watch?v=-TkoO8Z07hI&t=707s)
+
 Groep: Bezoek escape room, testen hefsysteem taxi
 
 <h3>Week 4</h3>
