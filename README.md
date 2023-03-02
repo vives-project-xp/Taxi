@@ -19,6 +19,7 @@ Opmaken planning, informatie en testen met microcontroller (c++), Zoeken en inst
 Groep:
 Brainstormen, verdelen verantwoordelijkheden en taakverdeling, videomateriaal opnemen, 
 
+
 Week 2
 TODO! (invoegen prijslijst)
 
