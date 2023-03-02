@@ -1,7 +1,7 @@
 # Fake-Taxi + Dino
 Esteban Desmedt , Colin Bossuyt , Xander Vyvey , Alberiek Depreytere  Project escape room door Vives 1ste jaar studenten PBA Elektronica-ICT.
 
-* Who worked on what? 
+<b> Who worked on what? </b>
 
 <h3>Week 1</h3>
 Colin:
