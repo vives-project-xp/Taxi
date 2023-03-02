@@ -1,7 +1,8 @@
 # Fake-Taxi + Dino
 Esteban Desmedt , Colin Bossuyt , Xander Vyvey , Alberiek Depreytere  Project escape room door Vives 1ste jaar studenten PBA Elektronica-ICT.
 
-* Who worked on what?
+* Who worked on what? 
+
 Week 1
 Colin:
 3D TAXI zoeken, opzoeken hoe te werken met blender, gezorgd voor uitsparingen in het gevonden model, Cura tests 3D printer
