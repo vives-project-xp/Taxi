@@ -46,7 +46,7 @@ Groep: Bezoek escape room, testen hefsysteem taxi
 Opmerkingen: 
 TODO!
 Colin: 
-Xander: 
+Xander: Tweede prototype scharniersysteem taxi
 Alberiek: 
 Esteban: 
 Groep: 
