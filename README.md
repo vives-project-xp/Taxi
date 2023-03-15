@@ -12,7 +12,7 @@ Xander:
 Powerpoint layout gemaakt, opzoekingswerk over speaker
 <hr>
 Alberiek: 
-Opgesteld verantwoordelijkheidslijst, materiaallijst, testen LED (andere LED's vereist)
+Opgesteld verantwoordelijkheidslijst (rolverdeling), materiaallijst: kijken wat handig is, bluethooth speaker eventueel?, testen LED (andere LED's vereist ze waren te zwak) 
 <hr>
 Esteban: 
 Opmaken planning, informatie en testen met microcontroller (c++), Zoeken en installeren video editing software (open shot), videomateriaal opnemen, github testen
@@ -28,15 +28,17 @@ TODO! (invoegen prijslijst)
 
 <h3>Week 3</h3>
 <hr>
-Opmerkingen: Dinosaurushoofs laten draaien werd bijgevoegd als opdracht. 
+Opmerkingen: Dinosaurushoofd laten draaien werd bijgevoegd als opdracht. 
+De taxi moet op en neer kunnen gaan (Snoop Dogg style)
 <hr>
-TODO!
+TODO!.
 <hr>
 Colin: Ondersteuning powerpoint, 
 <hr>
 Xander: Verderwerken powerpoint,
 <hr>
-Alberiek: Tekenen elektrische schema's, testen met materiaal, 
+Alberiek: Tekenen elektrische schema's, testen met materiaal, onmiddelijk gestart met een scharnier systeem voor de taxi te bedenken.
+De vrijdag naar de winkel geweest om een mp3 module uit te kiezen. 
 <hr>
 Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal, c++ videomateriaal bekijken (https://www.youtube.com/watch?v=-TkoO8Z07hI&t=707s)
 <hr>
@@ -45,9 +47,9 @@ Groep: Bezoek escape room, testen hefsysteem taxi
 <h3>Week 4</h3>
 Opmerkingen: 
 TODO!
-Colin: 
-Xander: Tweede prototype scharniersysteem taxi
-Alberiek: 
+Colin: Tweede prototype scharniersysteem taxi met ALberiek
+Xander: 
+Alberiek: Tweede prototype scharniersysteem taxi met Colin, daarna besloten om me volledig te focussen op de mp3 module.
 Esteban: 
 Groep: 
 
@@ -56,7 +58,7 @@ Opmerkingen:
 TODO!
 Colin: 
 Xander: 
-Alberiek: 
+Alberiek: Werken aan de MP3 module conclusie alles werkt naar behoren, afwerken van de gemakte breadboard schakeling zodat we een prototype Pcb kunnen laten maken.
 Esteban: 
 Groep: 
 
@@ -65,7 +67,7 @@ Opmerkingen:
 TODO!
 Colin: 
 Xander: 
-Alberiek: 
+Alberiek: Presentatie voor de Docenten+ uitleg hoe ver we al staan.
 Esteban: 
 Groep: 
 
