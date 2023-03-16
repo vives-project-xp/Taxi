@@ -37,7 +37,7 @@ Colin: Ondersteuning powerpoint,
 <hr>
 Xander: Verderwerken powerpoint,
 <hr>
-Alberiek: Tekenen elektrische schema's, testen met materiaal, onmiddelijk gestart met een scharnier systeem voor de taxi te bedenken.
+Alberiek: Tekenen elektrische schema's, testen met materiaal, gestart met een scharnier systeem voor de taxi te bedenken.
 De vrijdag naar de winkel geweest om een mp3 module uit te kiezen. 
 <hr>
 Esteban: prijslijst, c++ codering microcontrollers, opnemen videomateriaal, c++ videomateriaal bekijken (https://www.youtube.com/watch?v=-TkoO8Z07hI&t=707s)
