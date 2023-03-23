@@ -17,9 +17,9 @@ Used program links:
 <h1>Example usage</h1>
 <p>- Tinkercad: </p>
 <p>- Universal gcode: </p>
-1. Open Arduino IDE --> file --> examples --> grbl --> grblUpload: execute
-2. UGS: open and connect
-3. Now use the GUI at the left to make the motor turn
+<p>1. Open Arduino IDE --> file --> examples --> grbl --> grblUpload: execute</p>
+<p>2. UGS: open and connect</p>
+<p>3. Now use the GUI at the left to make the motor turn</p>
 <p>- Arduino IDE: </p>
 
 <b>(in te vullen door Colin)</b>
