@@ -6,4 +6,4 @@ This motor is connected to the Gshield V5b which is alo connected to the arduino
 
 Potential users of your project should be able to figure out quickly what the purpose of the project is. Make sure to get this information across early on! A good way to do this right is by providing:
 
-(hier foto of gif toevoegen)
+<b>(hier foto of gif toevoegen)</b>
