@@ -9,15 +9,15 @@ This motor is connected to the Gshield V5b which is alo connected to the arduino
 
 <h1>How to install it</h1>
 Used program links:
-- Tinkercad: https://www.tinkercad.com/
-- Universal gcode: https://universalgcodesender.com/download/
-- Arduino IDE: https://www.arduino.cc/en/software
+<p>- Tinkercad: https://www.tinkercad.com/ </p>
+<p>- Universal gcode: https://universalgcodesender.com/download/ </p>
+<p>- Arduino IDE: https://www.arduino.cc/en/software </p>
 
 
 <h1>Example usage</h1>
-- Tinkercad: 
-- Universal gcode: 
-- Arduino IDE: 
+<p>- Tinkercad: </p>
+<p>- Universal gcode: </p>
+<p>- Arduino IDE: </p>
 
 <b>(in te vullen door Colin)</b>
 
