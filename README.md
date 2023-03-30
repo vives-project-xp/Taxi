@@ -4,7 +4,7 @@
 The project concerning the taxi will lift the taxi on it's backwheels using a mechanical system supported by a motor (42BYG-40015-22B). The motor has a 3D print attached to it.
 This motor is connected to the Gshield V5b which is alo connected to the arduino uno microcontroller. Using specific software we're able to lift the taxi from the ground.
 
-<b>(hier foto of gif toevoegen)</b>
+<img src="./fotoTaxi.png" alt="taxifoto">
 
 
 <h1>How to install it</h1>
