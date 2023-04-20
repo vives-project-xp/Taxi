@@ -27,6 +27,12 @@ conda env list (om alle environments te zien)</p>
 
 <b>(in te vullen door Colin)</b>
 
+<p>-Arduino test code Hello World:</p>
+<img src= "./codeArduino.PNG" alt="code" width=600px>
+
+<p>-Python code for sending Hello world to Arduino Uno and get a blinking rgb led:</p>
+<img src= "./codePython.PNG" alt="code" width=600px>
+
 
 <h1>How to set up the dev environment</h1>
 
