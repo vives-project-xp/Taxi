@@ -1,4 +1,4 @@
-# Fake-Taxi + Boris de Dino
+# Fake-Taxi 
 
 <h1>What your project does</h1>
 The project concerning the taxi will lift the taxi on it's backwheels using a mechanical system supported by a motor (42BYG-40015-22B). The motor has a 3D print attached to it.
@@ -15,6 +15,11 @@ Used program links:
 <p>- Serial import in Python (commands): conda create --name helloworld ,
 conda activate helloworld ,
 conda env list (om alle environments te zien)</p>
+
+<h1>How do we send code to the motor?</h1>
+We use a gshield v5b as a motor driver (it has 3 drivers, we used Y). With GRBL this Gshield can communicate with an Arduino Uno which is attatched to it.
+With serial data input from TX to RX we can send our code to make the motor run to the Arduino, using GCODE. Below this you see a code snippet from our code in Python.
+
 
 
 <h1>Example usage</h1>
@@ -41,3 +46,4 @@ conda env list (om alle environments te zien)</p>
 <h1>Change log</h1>
 
 <h1>License and author info</h1>
+Made by Esteban Desmet, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
