@@ -30,7 +30,108 @@ Initially, we used Universal gcode to let the motor turn around, later on we pro
 3. Now use the GUI at the left to make the motor turn
 <br></br>
 - Arduino IDE: 
-1. 
+1. Code to implement the gcode to Arduino:
+File>Examples>grbl>grblUpload
+/**
+This sketch compiles and uploads Grbl to your 328p-based Arduino! 
+
+To use:
+- First make sure you have imported Grbl source code into your Arduino
+  IDE. There are details on our Github website on how to do this.
+
+- Select your Arduino Board and Serial Port in the Tools drop-down menu.
+  NOTE: Grbl only officially supports 328p-based Arduinos, like the Uno.
+  Using other boards will likely not work!
+
+- Then just click 'Upload'. That's it!
+
+For advanced users:
+  If you'd like to see what else Grbl can do, there are some additional
+  options for customization and features you can enable or disable. 
+  Navigate your file system to where the Arduino IDE has stored the Grbl 
+  source code files, open the 'config.h' file in your favorite text 
+  editor. Inside are dozens of feature descriptions and #defines. Simply
+  comment or uncomment the #defines or alter their assigned values, save
+  your changes, and then click 'Upload' here. 
+
+Copyright (c) 2015 Sungeun K. Jeon
+Released under the MIT-license. See license.txt for details.
+**/
+
+#include <grbl.h>
+
+// Do not alter this file!
+
+- Python code (programmed in Visual Studio Code)
+
+1. Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.)
+import serial
+import time
+
+
+ser = serial.Serial('COM6', 115200)
+
+
+time.sleep(2)
+
+
+command = input("Enter a command: ")
+
+
+if command == "hello world":
+  ser.write(command.encode())
+  time.sleep(1)
+  ser.write(b'off') 
+
+ser.close()
+
+2. Gcode generator code:
+mport serial
+import time
+
+ser = serial.Serial('COM6', 115200)
+
+
+time.sleep(2)
+
+y_pos = -11
+feed_rate = 1000
+y_pos2 = 0
+
+g_code = "G21 \n"
+g_code += "G90 \n"
+g_code += "G01 F{} Y{} \n".format(feed_rate, y_pos)
+
+g_code2 = "G21 \n"
+g_code2 += "G90 \n"
+g_code2 += "G01 F{} Y{} \n".format(feed_rate, y_pos2)
+
+for i in range (3):
+    ser.write(g_code.encode())
+    ser.write(g_code2.encode())
+
+ser.close()
+--------------------------------------------------
+Test met library mecode die niet werkt:
+import mecode
+import time
+
+g = mecode.G(
+    direct_write=True,
+    two_way_comm=False,
+    direct_write_mode="serial",
+    printer_port="COM6",
+    setup=False,
+    baudrate=115200)
+
+(#) g.absolute()
+(#) g.setup()
+g.write("G21 ", resp_needed=False)
+g.write("G90 ", resp_needed=False)
+g.write("G1 F1000 Y10 ", resp_needed=False)
+(#) g.abs_move(x=0,y=10,z=0, F=1000)
+g.teardown()
+
 
 
 <p>-Arduino test code Hello World:</p>
