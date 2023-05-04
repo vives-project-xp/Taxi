@@ -111,7 +111,8 @@ for i in range (3):
     ser.write(g_code2.encode())
 
 ser.close()
---------------------------------------------------
+
+
 Test met library mecode die niet werkt:
 import mecode
 import time
