@@ -151,4 +151,4 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <h1>Change log</h1>
 
 <h1>License and author info</h1>
-Made by Esteban Desmet, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
+Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
