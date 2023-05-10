@@ -1,5 +1,19 @@
 # Fake-Taxi 
-
+<h1> Content</h1>
+<ul>
+<li> What's our goal</li>
+<li> How does it work?</li>
+<li> The programs we used (and how to install them)</li>
+<li> How do we send code to the motor?</li>
+<li> How to use the programs?</li>
+<li> Problem we experienced</li>
+<li> Parts</li>
+<li> How to set up the dev environment</li>
+<li> How to ship a change</li>
+<li> Change log</li>
+<li> License and author info</li>
+<li> GIT Pushes</li>
+</ul>
 <h1>What your project does</h1>
 With this project we created a taxi that will go up on it's backwheels so it'll jump up and down. We also made a speaker system to output some noises. This taxi will then later be implemented in an escape room.
 <br></br>
@@ -166,8 +180,6 @@ conda env list
 <br></br>
 </li>
 </li>
-
-
 <li>
 <p>Arduino test code Hello World (screenshot):</p>
 <img src= "./codeArduino.PNG" alt="code" width=600px>
@@ -184,6 +196,12 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Arduino Uno</li>
 <li>Gshield v5b</li>
 </ul>
+<h1>GIT Pushes</h1>
+<ul>
+<li>Code</li>
+<li>Powerpoint</li>
+<li>Planning</li>
+<li>...</li>
 
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
