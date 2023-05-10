@@ -14,10 +14,7 @@ Used program links:
 <li>Tinkercad (for our 3D print): https://www.tinkercad.com/</li>
 <li>Universal gcode: https://universalgcodesender.com/download/</li>
 <li>Arduino IDE: https://www.arduino.cc/en/software</li>
-<li>Serial import in Python (commands):</li>
-conda create --name helloworld<br></br>
-conda activate helloworld <br></br>
-conda env list (to see all environments) <br></br>
+
 </ul>
 <h1>How do we send code to the motor?</h1>
 We use a gshield v5b as a motor driver (it has 3 drivers, we used Y). With the GRBL library this Gshield can communicate with an Arduino Uno which is attatched to it.
@@ -158,6 +155,16 @@ g.teardown()
 
 </li>
 </ol>
+<li>Serial import in Python (commands):
+
+```pt
+conda create --name helloworld
+conda activate helloworld 
+conda env list 
+
+```
+<br></br>
+</li>
 </li>
 
 
@@ -177,12 +184,6 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Arduino Uno</li>
 <li>Gshield v5b</li>
 </ul>
-
-<h1>How to set up the dev environment</h1>
-
-<h1>How to ship a change</h1>
-
-<h1>Change log</h1>
 
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
