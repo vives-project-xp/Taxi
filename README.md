@@ -142,13 +142,13 @@ g.teardown()
 
 
 <li>
-<p>-Arduino test code Hello World:</p>
+<p>Arduino test code Hello World:</p>
 <img src= "./codeArduino.PNG" alt="code" width=600px>
 </li>
 </ul>
 
-<h1>Problems we experienced</h1>
-<<<<<<< HEAD
+<h1>Problem we experienced</h1>
+
 Because we only use a simple stepping motor, the real taxi (weight is more than 2.5kg) can't lift up. To show the system itself does work, we used a taxi in cardboard. But if you have a heavier motor, it should have to work perfectly.
 
 <h1>Parts</h1>
@@ -157,9 +157,8 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Arduino Uno</li>
 <li>Gshield v5b</li>
 </ul>
-=======
 Because we only use a simple stepping motor, the real taxi (weight is more than 2.5kg) can't lift up. To show the system itself does work, we used a taxi in cardboard. But if you have a heavier motor, it should work perfectly.
->>>>>>> d8e93019a29635878953375fbe3560b59171ee73
+
 
 <h1>How to set up the dev environment</h1>
 
