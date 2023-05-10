@@ -1,5 +1,4 @@
 # Fake-Taxi 
-
 <h1> Content</h1>
 <ul>
 <li> What's our goal</li>
@@ -15,8 +14,9 @@
 <li> License and author info</li>
 <li> GIT Pushes</li>
 </ul>
-<h1>What's our goal?</h1>
-Our goal is to make a taxi that will go up on it's backwheels so it'll jump up and down. This taxi will then later be implemented in an escape room.
+<h1>What your project does</h1>
+With this project we created a taxi that will go up on it's backwheels so it'll jump up and down. We also made a speaker system to output some noises. This taxi will then later be implemented in an escape room.
+<br></br>
 <img src="./fotoTaxi.png" alt="taxifoto" width=600px>
 <h1>How does it work?</h1>
 To lift the taxi we use a mechanical system made with some maker beams, supported by a stepping motor (42BYG-40015-22B). The motor has a 3D print attached to it. The 3D goes up for 90 degrees and then goes down to it original location, it does this movement for about 5 times. The print pushes against an U-form profile at the back of the taxi, this makes the taxi go up and down. The motor is connected to the Gshield V5b which is connected to an arduino uno microcontroller. Using specific software we're able to lift the taxi from the ground.
@@ -28,10 +28,7 @@ Used program links:
 <li>Tinkercad (for our 3D print): https://www.tinkercad.com/</li>
 <li>Universal gcode: https://universalgcodesender.com/download/</li>
 <li>Arduino IDE: https://www.arduino.cc/en/software</li>
-<li>Serial import in Python (commands):</li>
-conda create --name helloworld<br></br>
-conda activate helloworld <br></br>
-conda env list (to see all environments) <br></br>
+
 </ul>
 <h1>How do we send code to the motor?</h1>
 We use a gshield v5b as a motor driver (it has 3 drivers, we used Y). With the GRBL library this Gshield can communicate with an Arduino Uno which is attatched to it.
@@ -50,6 +47,10 @@ Initially, we used Universal gcode to let the motor turn around, later on we pro
 <br></br>
 <li>Arduino IDE: 
 1. Code to implement the gcode to Arduino:
+<br></br>
+
+```pt
+
 File>Examples>grbl>grblUpload
 
 This sketch compiles and uploads Grbl to your 328p-based Arduino! 
@@ -80,10 +81,13 @@ Released under the MIT-license. See license.txt for details.
 #include <grbl.h>
 
 // Do not alter this file!
+
+```
 </li>
 <li>Python code (programmed in Visual Studio Code)
 <ol>
 <li>Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.
+<br></br>
 
 ```pt
 
@@ -110,6 +114,7 @@ ser.close()
 ```
 </li>
 <li>Gcode generator code:
+<br></br>
 
 ```pt
 
@@ -164,11 +169,18 @@ g.teardown()
 
 </li>
 </ol>
-</li>
+<li>Serial import in Python (commands):
+<br></br>
 
+```pt
+conda create --name helloworld
+conda activate helloworld 
+conda env list 
 
-<li>
-<p>Arduino test code Hello World:</p>
+```
+
+</li></li><li>
+<p>Arduino test code Hello World (screenshot):</p>
 <img src= "./codeArduino.PNG" alt="code" width=600px>
 </li>
 </ul>
@@ -183,12 +195,14 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Arduino Uno</li>
 <li>Gshield v5b</li>
 </ul>
+<h1>GIT Pushes</h1>
+<ul>
+<li>Code</li>
+<li>Powerpoint</li>
+<li>Video</li>
+<li>Pictures</li>
+<li>Planning</li>
 
-<h1>How to set up the dev environment</h1>
-
-<h1>How to ship a change</h1>
-
-<h1>Change log</h1>
 
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
