@@ -170,6 +170,7 @@ g.teardown()
 </li>
 </ol>
 <li>Serial import in Python (commands):
+<br></br>
 
 ```pt
 conda create --name helloworld
@@ -177,10 +178,8 @@ conda activate helloworld
 conda env list 
 
 ```
-<br></br>
-</li>
-</li>
-<li>
+
+</li></li><li>
 <p>Arduino test code Hello World (screenshot):</p>
 <img src= "./codeArduino.PNG" alt="code" width=600px>
 </li>
@@ -200,6 +199,8 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <ul>
 <li>Code</li>
 <li>Powerpoint</li>
+<li>Video</li>
+<li>Pictures</li>
 <li>Planning</li>
 <li>...</li>
 
