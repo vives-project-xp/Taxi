@@ -9,14 +9,15 @@ To lift the taxi we use a mechanical system made with some maker beams, supporte
 <img src="./controller.jpg" alt="controllerfoto" width=400px> <img src="./opstelling.jpg" alt="opstellingfoto" width=400px>
 <h1>The programs we used (and how to install them)</h1>
 Used program links:
-- Tinkercad (for our 3D print): https://www.tinkercad.com/ 
-- Universal gcode: https://universalgcodesender.com/download/ 
-- Arduino IDE: https://www.arduino.cc/en/software 
-- Serial import in Python (commands): 
-conda create --name helloworld 
-conda activate helloworld 
-conda env list (om alle environments te zien)
-
+<ul>
+<li>Tinkercad (for our 3D print): https://www.tinkercad.com/</li>
+<li>Universal gcode: https://universalgcodesender.com/download/</li>
+<li>Arduino IDE: https://www.arduino.cc/en/software</li>
+<li>Serial import in Python (commands):</li>
+conda create --name helloworld<br></br>
+conda activate helloworld <br></br>
+conda env list (to see all environments) <br></br>
+</ul>
 <h1>How do we send code to the motor?</h1>
 We use a gshield v5b as a motor driver (it has 3 drivers, we used Y). With the GRBL library this Gshield can communicate with an Arduino Uno which is attatched to it.
 With serial data input from TX to RX we can send our code to make the motor run to the Arduino, using GCODE. Below this you see a code snippet from our code in Python.
@@ -24,12 +25,15 @@ Initially, we used Universal gcode to let the motor turn around, later on we pro
 
 
 <h1>How to use the programs?</h1>
-- Universal gcode (to let the motor turn): 
-1. Open Arduino IDE --> file --> examples --> grbl --> grblUpload: execute
-2. UGS: open and connect
-3. Now use the GUI at the left to make the motor turn
+<ul>
+<li>Universal gcode (to let the motor turn): 
+<ol>
+<li>Open Arduino IDE --> file --> examples --> grbl --> grblUpload: execute</li>
+<li>UGS: open and connect</li>
+<li>Now use the GUI at the left to make the motor turn </li>
+</ol></li>
 <br></br>
-- Arduino IDE: 
+<li>Arduino IDE: 
 1. Code to implement the gcode to Arduino:
 File>Examples>grbl>grblUpload
 /**
@@ -61,10 +65,10 @@ Released under the MIT-license. See license.txt for details.
 #include <grbl.h>
 
 // Do not alter this file!
-
-- Python code (programmed in Visual Studio Code)
-
-1. Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.)
+</li>
+<li>Python code (programmed in Visual Studio Code)
+<ol>
+<li>Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.)
 import serial
 import time
 
@@ -84,8 +88,8 @@ if command == "hello world":
   ser.write(b'off') 
 
 ser.close()
-
-2. Gcode generator code:
+</li>
+<li>Gcode generator code:
 mport serial
 import time
 
@@ -132,17 +136,28 @@ g.write("G90 ", resp_needed=False)
 g.write("G1 F1000 Y10 ", resp_needed=False)
 (#) g.abs_move(x=0,y=10,z=0, F=1000)
 g.teardown()
+</li>
+</ol>
+</li>
 
 
-
+<li>
 <p>-Arduino test code Hello World:</p>
 <img src= "./codeArduino.PNG" alt="code" width=600px>
-
-<p>-Python code for sending Hello world to Arduino Uno and get a blinking rgb led:</p>
-<img src= "./codePython.PNG" alt="code" width=600px>
+</li>
+</ul>
 
 <h1>Problems we experienced</h1>
-Because we only use a simple stepping motor, the real taxi (weight is more than 2.5kg) can't lift up. To show the system itself does work, we used a taxi in cardboard. But if you have a heavier motor, it should have to work perfectly.
+<ul>
+<li>Because we only use a simple stepping motor, the real taxi (weight is more than 2.5kg) can't lift up. To show the system itself does work, we used a taxi in cardboard. But if you have a heavier motor, it should have to work perfectly.</li>
+<li>
+</ul>
+<h1>Parts</h1>
+<ul>
+<li>Stepping motor, datasheet: https://media.digikey.com/pdf/Data%20Sheets/Makeblock%20PDFs/81042_Web.pdf</li>
+<li>Arduino Uno</li>
+<li>Gshield v5b</li>
+</ul>
 
 <h1>How to set up the dev environment</h1>
 
