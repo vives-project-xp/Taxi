@@ -1,5 +1,4 @@
 # Fake-Taxi 
-
 <h1> Content</h1>
 <ul>
 <li> What's our goal</li>
@@ -13,6 +12,7 @@
 <li> How to ship a change</li>
 <li> Change log</li>
 <li> License and author info</li>
+<li> GIT Pushes</li>
 </ul>
 <br></br>
 <h1>What's our goal?</h1>
@@ -180,6 +180,17 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <h1>How to ship a change</h1>
 
 <h1>Change log</h1>
+
+<h1> GIT Pushes</h1>
+<ul>
+<li> Powerpoint</li>
+<li> Python code</li>
+<li> Arduino code</li>
+<li> Planning</li>
+<li> Images</li>
+<li> ReadME</li>
+</ul>
+<br></br>
 
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
