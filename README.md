@@ -1,5 +1,7 @@
 # Fake-Taxi 
 
+<h1> Content</h1>
+<br></br>
 <h1>What's our goal?</h1>
 Our goal is to make a taxi that will go up on it's backwheels so it'll jump up and down. This taxi will then later be implemented in an escape room.
 <img src="./fotoTaxi.png" alt="taxifoto" width=600px>
