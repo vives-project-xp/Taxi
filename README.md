@@ -202,7 +202,7 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Video</li>
 <li>Pictures</li>
 <li>Planning</li>
-
+</ul>
 
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
