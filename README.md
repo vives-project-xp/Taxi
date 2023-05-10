@@ -14,7 +14,6 @@
 <li> License and author info</li>
 <li> GIT Pushes</li>
 </ul>
-<br></br>
 <h1>What's our goal?</h1>
 Our goal is to make a taxi that will go up on it's backwheels so it'll jump up and down. This taxi will then later be implemented in an escape room.
 <img src="./fotoTaxi.png" alt="taxifoto" width=600px>
@@ -190,7 +189,5 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li> Images</li>
 <li> ReadME</li>
 </ul>
-<br></br>
-
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
