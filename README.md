@@ -1,6 +1,17 @@
 # Fake-Taxi 
 
 <h1> Content</h1>
+* What's our goal
+* How does it work?
+* The programs we used (and how to install them)
+* How do we send code to the motor?
+* How to use the programs?
+* Problem we experienced
+* Parts
+* How to set up the dev environment
+* How to ship a change
+* Change log
+* License and author info
 <br></br>
 <h1>What's our goal?</h1>
 Our goal is to make a taxi that will go up on it's backwheels so it'll jump up and down. This taxi will then later be implemented in an escape room.
