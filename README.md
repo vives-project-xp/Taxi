@@ -1,22 +1,8 @@
 # Fake-Taxi 
 
-<h1> Content</h1>
-<ul>
-<li> What's our goal</li>
-<li> How does it work?</li>
-<li> The programs we used (and how to install them)</li>
-<li> How do we send code to the motor?</li>
-<li> How to use the programs?</li>
-<li> Problem we experienced</li>
-<li> Parts</li>
-<li> How to set up the dev environment</li>
-<li> How to ship a change</li>
-<li> Change log</li>
-<li> License and author info</li>
-<li> GIT Pushes</li>
-</ul>
-<h1>What's our goal?</h1>
-Our goal is to make a taxi that will go up on it's backwheels so it'll jump up and down. This taxi will then later be implemented in an escape room.
+<h1>What your project does</h1>
+With this project we created a taxi that will go up on it's backwheels so it'll jump up and down. We also made a speaker system to output some noises. This taxi will then later be implemented in an escape room.
+<br></br>
 <img src="./fotoTaxi.png" alt="taxifoto" width=600px>
 <h1>How does it work?</h1>
 To lift the taxi we use a mechanical system made with some maker beams, supported by a stepping motor (42BYG-40015-22B). The motor has a 3D print attached to it. The 3D goes up for 90 degrees and then goes down to it original location, it does this movement for about 5 times. The print pushes against an U-form profile at the back of the taxi, this makes the taxi go up and down. The motor is connected to the Gshield V5b which is connected to an arduino uno microcontroller. Using specific software we're able to lift the taxi from the ground.
@@ -50,6 +36,10 @@ Initially, we used Universal gcode to let the motor turn around, later on we pro
 <br></br>
 <li>Arduino IDE: 
 1. Code to implement the gcode to Arduino:
+<br></br>
+
+```pt
+
 File>Examples>grbl>grblUpload
 
 This sketch compiles and uploads Grbl to your 328p-based Arduino! 
@@ -80,10 +70,13 @@ Released under the MIT-license. See license.txt for details.
 #include <grbl.h>
 
 // Do not alter this file!
+
+```
 </li>
 <li>Python code (programmed in Visual Studio Code)
 <ol>
 <li>Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.
+<br></br>
 
 ```pt
 
@@ -110,6 +103,7 @@ ser.close()
 ```
 </li>
 <li>Gcode generator code:
+<br></br>
 
 ```pt
 
@@ -168,7 +162,7 @@ g.teardown()
 
 
 <li>
-<p>Arduino test code Hello World:</p>
+<p>Arduino test code Hello World (screenshot):</p>
 <img src= "./codeArduino.PNG" alt="code" width=600px>
 </li>
 </ul>
