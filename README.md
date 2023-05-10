@@ -1,4 +1,5 @@
 # Fake-Taxi 
+
 <h1> Content</h1>
 <ul>
 <li> What's our goal</li>
@@ -50,7 +51,7 @@ Initially, we used Universal gcode to let the motor turn around, later on we pro
 <li>Arduino IDE: 
 1. Code to implement the gcode to Arduino:
 File>Examples>grbl>grblUpload
-/**
+
 This sketch compiles and uploads Grbl to your 328p-based Arduino! 
 
 To use:
@@ -74,7 +75,7 @@ For advanced users:
 
 Copyright (c) 2015 Sungeun K. Jeon
 Released under the MIT-license. See license.txt for details.
-**/
+
 
 #include <grbl.h>
 
@@ -82,7 +83,10 @@ Released under the MIT-license. See license.txt for details.
 </li>
 <li>Python code (programmed in Visual Studio Code)
 <ol>
-<li>Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.)
+<li>Code for the communication between arduino. When the input is hello world the led of the arduino turns on. We used this as a first test to see if everything works.
+
+```pt
+
 import serial
 import time
 
@@ -102,8 +106,13 @@ if command == "hello world":
   ser.write(b'off') 
 
 ser.close()
+
+```
 </li>
 <li>Gcode generator code:
+
+```pt
+
 mport serial
 import time
 
@@ -150,6 +159,9 @@ g.write("G90 ", resp_needed=False)
 g.write("G1 F1000 Y10 ", resp_needed=False)
 (#) g.abs_move(x=0,y=10,z=0, F=1000)
 g.teardown()
+
+```
+
 </li>
 </ol>
 </li>
@@ -171,8 +183,6 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Arduino Uno</li>
 <li>Gshield v5b</li>
 </ul>
-Because we only use a simple stepping motor, the real taxi (weight is more than 2.5kg) can't lift up. To show the system itself does work, we used a taxi in cardboard. But if you have a heavier motor, it should work perfectly.
-
 
 <h1>How to set up the dev environment</h1>
 
@@ -180,14 +190,6 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 
 <h1>Change log</h1>
 
-<h1> GIT Pushes</h1>
-<ul>
-<li> Powerpoint</li>
-<li> Python code</li>
-<li> Arduino code</li>
-<li> Planning</li>
-<li> Images</li>
-<li> ReadME</li>
-</ul>
 <h1>License and author info</h1>
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
+Contact (email Xander): xander.vyvey@student.vives.be
