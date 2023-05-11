@@ -21,7 +21,7 @@ With this project we created a taxi that will go up on it's backwheels so it'll 
 <h1>How does it work?</h1>
 To lift the taxi we use a mechanical system made with some maker beams, supported by a stepping motor (42BYG-40015-22B). The motor has a 3D print attached to it. The 3D goes up for 90 degrees and then goes down to it original location, it does this movement for about 5 times. The print pushes against an U-form profile at the back of the taxi, this makes the taxi go up and down. The motor is connected to the Gshield V5b which is connected to an arduino uno microcontroller. Using specific software we're able to lift the taxi from the ground.
 <br></br>
-<img src="./controller.jpg" alt="controllerfoto" width=400px> <img src="./opstelling.jpg" alt="opstellingfoto" width=400px>
+<img src="./controller.jpg" alt="controllerfoto" width=350px> <img src="./opstelling.jpg" alt="opstellingfoto" width=350px>
 <h1>The programs we used (and how to install them)</h1>
 Used program links:
 <ul>
