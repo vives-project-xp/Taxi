@@ -61,6 +61,12 @@ However, this causes dender with most inexpensive switches. A phenomenon where m
 It can then be controlled by a microcontroller or PLC, for example.
 
 We can get dender from the PLC though this we can solve with a Schmitt Trigger or low pass filter.
+Juxebox: https://whadda.com/product/mp3-jukebox-module-wmah202n/ 
+<br></br>
+<img src="./bord.jpg" alt="juxebox" width=400px> 
+<img src="./datasheet.png" alt="datasheet" width=400px> 
+<img src="./tekening.png" alt="tekening" > 
+<img src="./tekening2.png" alt="tekening2"> 
 
 <h1>How to use the programs?</h1>
 <ul>
