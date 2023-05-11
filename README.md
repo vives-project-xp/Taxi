@@ -35,6 +35,32 @@ We use a gshield v5b as a motor driver (it has 3 drivers, we used Y). With the G
 With serial data input from TX to RX we can send our code to make the motor run to the Arduino, using GCODE. Below this you see a code snippet from our code in Python.
 Initially, we used Universal gcode to let the motor turn around, later on we programmed this ourself in Python.
 
+<h1>How does the speaker work?</h1>
+To drive our speaker, we use Velleman's MP3 player. (WMAH202N).
+
+This player immediately plays the sound signal when the power supply voltage is applied through the audio cables (left neutral right). These voltages can be compared to the normal voltages from a telephone. Of course, this signal needs to be amplified if we were to simply connect this to a box. 
+
+For that I use a BC547 coupling transistor amplifier. This is made as simple as possible to reduce the cost and all parts are commonly available. 
+
+The amplifier consists of:
+2x one microfarad capacitors 
+1x 10k Ohm potentiometer
+2x BC547 transistor
+
+The 2 capacitors are placed in parallel this way we can add up the values and reach a capacitor value of about 2.2 microfarad which is expected.
+
+The potentiometer allows us to control the sound.
+
+The transistors allow us to place the supply voltage and the input signal amplified on the box.
+
+In our speaker setup, we only want the speaker to play 1 sound when desired.
+
+However, the applications of our MP3 player are much more than that. Besides the usual pulse light, indicating whether the player is working or not, we can also pause the sound, take next sound or return to the previous song.
+To accomplish this, the creator suggests a push button.
+However, this causes dender with most inexpensive switches. A phenomenon where multiple presses are accomplished because the contact vibrates or thunders. However, this is not desirable with us because we only want to move forward one song, also we wish to have everything automated and in this application immediate human input is needed to realize this. Therefore, it is better to use a transistor. This way we are sure that the signal will be passed only once.
+It can then be controlled by a microcontroller or PLC, for example.
+
+We can get dender from the PLC though this we can solve with a Schmitt Trigger or low pass filter.
 
 <h1>How to use the programs?</h1>
 <ul>
@@ -205,5 +231,6 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 </ul>
 
 <h1>License and author info</h1>
+
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
 Contact (email Xander): xander.vyvey@student.vives.be
