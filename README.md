@@ -236,6 +236,10 @@ Because we only use a simple stepping motor, the real taxi (weight is more than 
 <li>Planning</li>
 </ul>
 
+<h1>Link to video and powerpoint</h1>
+https://vivesonline-my.sharepoint.com/:f:/g/personal/r0929537_student_vives_be/EhgBkyU8gPBFs8h8WDk01EUBaExMeiYeV6tWr5XbjaU0Lg?e=gprzPR
+
+
 <h1>License and author info</h1>
 
 Made by Esteban Desmedt, Colin Bossuyt, Xander Vyvey and Alberiek Depreytere in 2023 for VIVES.
